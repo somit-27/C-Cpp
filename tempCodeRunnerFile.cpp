@@ -1,0 +1,1 @@
+//function for entring an element in queue
