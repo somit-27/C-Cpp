@@ -54,8 +54,6 @@ int main(){
 			default:
 				break;
 		}
-		cout<<"\nTo perform again press 1\n";
-		cin>>loop;	//taking input of loop as 1 or any other number so as to continue the process or to end it
         }
     return 0;
 }

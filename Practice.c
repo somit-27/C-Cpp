@@ -1,42 +1,61 @@
-#include<stdio.h>
-struct player{
-     int id;
-     char name[10];
-     int scores;
+/*#include<stdio.h>
+struct Student
+{
+    int rn;
+    char name[20];
 };
-void bubble(int arr[],int n){
-    int i,j;
-    for(i=0;i<n;i++){
-        for(j=0;j<n-i-1;j++){
-            if(arr[j]<arr[j+1]){
-                int temp;
-            temp = arr[j];
-            arr[j] = arr[j+1];
-            arr[j+1] = temp;
-        }
-    }
+int displayrn(struct Student s){
+    return s.rn;
 }
+const char* displayn(struct Student s){
+    char *name = s.name;
+    return name;
 }
 int main(){
-    int n,flag=0;
-    int a[n];
-    scanf("%d",&n);
-    struct player p[n];
-    for(int i=0;i<n;i++){
-        scanf("%d",&p[i].id);
-        scanf("%s",p[i].name);
-        scanf("%d",&p[i].scores);
-        a[i] = p[i].scores;
-    }
-    for(i=0;i<)
-    if(flag==0)
-    bubble(a,n);
-    for(int i=0;i<n;i++){
-        for(int j=0;j<n;j++){
-            if(a[i]==p[j].scores){
-                printf("%s %d\n",p[j].name,p[j].id);
-                break;
-            }
-        }
-    }
+    int x;
+    char n[20];
+    struct Student s1,s2,s3,s4,s5;
+    scanf("%d%s",&s1.rn,&s1.name);
+    scanf("%d%s",&s2.rn,&s2.name);
+    scanf("%d%s",&s3.rn,&s3.name);
+    scanf("%d%s",&s4.rn,&s4.name);
+    scanf("%d%s",&s5.rn,&s5.name);
+    printf("%d %s \n",displayrn(s1),displayn(s1));
+    printf("%d %s \n",displayrn(s2),displayn(s2));
+    printf("%d %s\n",displayrn(s3),displayn(s3));
+    printf("%d %s\n",displayrn(s4),displayn(s4));
+    printf("%d %s\n",displayrn(s5),displayn(s5));
+}*/
+#include<stdio.h>
+struct Student
+{
+      int  marks;
+      char rollno[20];
+};
+int displayrn(struct Student s){
+    return s.marks;
+}
+const char* displayn(struct Student s){
+    char *roll = s.rollno;
+    return roll;
+}
+int main(){
+    int x;
+    char n[20];
+    struct Student s1,s2,s3,s4,s5;
+    printf("enter the first student details marks and rollno");
+    scanf("%d%s",&s1.marks,&s1.rollno);
+    printf("enter second students details");
+    scanf("%d%s",&s2.marks,&s2.rollno);
+    printf("enter third student details");
+    scanf("%d%s",&s3.marks,&s3.rollno);
+    printf("enter fourth student details");
+    scanf("%d%s",&s4.marks,&s4.rollno);
+    printf("enter fifth student details");
+    scanf("%d%s",&s5.marks,&s5.rollno);
+    printf("%d %s \n",displayrn(s1),displayn(s1));
+    printf("%d %s \n",displayrn(s2),displayn(s2));
+    printf("%d %s\n",displayrn(s3),displayn(s3));
+    printf("%d %s\n",displayrn(s4),displayn(s4));
+    printf("%d %s\n",displayrn(s5),displayn(s5));
 }
