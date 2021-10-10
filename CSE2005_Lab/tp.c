@@ -42,3 +42,7 @@ int main()
     printf("Avg waiting time of the process  is %f\n",Avg_WT);
     printf("Avg turn around time of the process is %f\n",Avg_TAT);
 }
+
+
+
+//0 0 1 0 7 4 3 1 2 0 0 1 2 2 2 3 0 2 6 0 0 3 2 1 1 0 1 1 4 0 0 2 4 3 1 10 5 7
