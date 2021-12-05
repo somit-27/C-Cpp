@@ -1,14 +1,1 @@
-printf("Allocated Matrix\n");
-    // for(i=0;i<n;i++){
-    //     for(j=0;j<m;j++){
-    //         printf("%d ",all[i][j]);
-    //     }
-    //     printf("\n");
-    // }
-    // printf("Needed Matrix\n");
-    // for(i=0;i<n;i++){
-    //     for(j=0;j<m;j++){
-    //         printf("%d ",need[i][j]);
-    //     }
-    //     printf("\n");
-    // }
+10 1 2 6 5 3 2 5 6 1 3 4
